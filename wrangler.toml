@@ -1,0 +1,10 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "cordinova"
+compatibility_date = "2026-04-16"
+compatibility_flags = ["nodejs_compat"]
+
+[observability]
+enabled = true
+
+# Cloudflare Pages output directory for Next.js via @opennextjs/cloudflare
+pages_build_output_dir = ".worker-next"
